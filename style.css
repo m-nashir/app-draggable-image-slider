@@ -8,3 +8,28 @@
     outline: none;
     scroll-behavior: smooth;
 }
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #343f4f;
+}
+.wrapper{
+    max-width: 1200px;
+}
+.wrapper .carousel{
+    white-space: nowrap;
+    cursor: pointer;
+    font-size: 0px;
+    overflow: hidden;
+}
+.carousel img {
+    height: 340px;
+    margin-left: 14px;
+    width: calc(100% / 3);
+    object-fit: cover;
+}
+.carousel img:first-child {
+    margin-left: 0px;
+}
